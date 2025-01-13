@@ -1,0 +1,109 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.header {
+    background-color: #000;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav-link {
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.product-page {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.product-gallery {
+    width: 50%;
+}
+
+.main-image {
+    width: 100%;
+    height: auto;
+}
+
+.thumbnail-gallery {
+    display: flex;
+    margin-top: 10px;
+}
+
+.thumbnail {
+    width: 60px;
+    height: auto;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.product-details {
+    width: 40%;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.description {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.price {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.quantity-section {
+    margin-bottom: 20px;
+}
+
+.add-to-cart {
+    background-color: #000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.add-to-cart:hover {
+    background-color: #444;
+}
+
+.footer {
+    background-color: #000;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px;
+}
